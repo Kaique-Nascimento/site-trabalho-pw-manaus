@@ -43,11 +43,13 @@ a{
     display: grid;
     place-items: center;
     margin: 20px 0px; 
+
 }
 #verde{
     padding: 20px 0;
     color: white;
     background-color: darkgreen;
+   
     /*
     border:#8C3623 1px solid;
     border-radius: 20px;
@@ -59,10 +61,18 @@ a{
     padding: 20px 0;
     color: white;
     background-color:  #D98F4E;
+    display: flex;
+    justify-content: center;
     /*
     border:#8C3623 1px solid;
     border-radius: 20px;
     margin: 0 100px;
     */  
 }
-
+img {
+    margin: auto;
+    display: block;
+  }
+ 
+  
+  
