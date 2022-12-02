@@ -7,7 +7,8 @@ Na teoria, um site que teria informações informatísticas sobre a cidade de Ma
 ## Tecnologias usadas
 >- HTML 5;
 >- CSS 3;
->- ECMAScript 2020.
+>- ECMAScript 2020;
+>- SplideJs v4.1.3.
 
 ## Versão
 0.0.1
