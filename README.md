@@ -11,10 +11,12 @@ Na teoria, um site que teria informações informatísticas sobre a cidade de Ma
 >- SplideJs v4.1.3;
 >- RickRoll;
 >- Simple Grid;
-> Glassmorphism-generator.
+>- Glassmorphism-generator;
+>- Animate.css v4.1.1;
+>- wow.js.
 
 ## Versão
-0.0.3
+0.0.4
 
 ## Autores
 Nós do grupo
