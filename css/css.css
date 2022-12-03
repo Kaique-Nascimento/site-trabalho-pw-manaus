@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 20px;
+  }
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 20px;
+  }
+::-webkit-scrollbar-thumb{
+    background: black; 
+    border-radius: 20px;
+  }
+::-webkit-scrollbar-thumb:hover{
+    background: #A9BAEE; 
+  }
+header{
+    background-color: #8C3623;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;  
+}
+.nav-link{
+    transition: all 0.5s ease;
+}
+.nav-link:hover{
+    color: #F2D399;
+}
+.centro{
+    display: grid;
+    place-items: center;
+    margin: 20px 0px; 
+}
+#comeco{
+    padding: 20px 0;
+    color: white;
+    background-color: darkgreen;
+}
+#info{
+    padding: 20px 0;
+    color: white;
+    background-color:  #D98F4E; 
+}
+img{
+    margin: auto;
+    display: block;
+}
+.splide__slide img{
+    width: 50%;
+    height: auto;
+}
+details{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+summary{
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+details[open]{
+    padding: .5em;
+    transition: all 0.5s ease;
+}
+details[open] summary{
+    border-top: 1px solid white;
+    margin-bottom: .5em;
+    transition: all 0.5s ease;
+}
+#pessoas{
+    margin: -50px 0;
+    background-color: #1E1E1E;
+    color: #0083D0
+}
+#contato{
+    margin: 50px 0;
+    background-color: #A64521;
+    color: white
+}
+footer{
+    background-color: #191919;
+}
+.footer{
+    font-size: 10px;
+    margin: -50px 0;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+    color: #999999;
+}
+form{
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: #591E09;
+    max-width: 1000px;
+}
+#hw{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #66FFFF;
+    text-shadow: 5px 5px 5px black;
+}
+#nome, #fone, #email{
+    width: 250px;
+    padding: 15px;
+    color: black;
+    margin-left: 30px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    font-size: 15px;
+}
+input:hover, textarea:hover, input:focus, textarea:focus{
+    border-color: #000066;
+    box-shadow: 0 5px 10px #FFFF00;
+    background-color: #F7FFF2;
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+.enviar{
+    background-color: #00A685;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+    
+}
+textarea{
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+    padding-left: 20px;
+}
+form label{
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#txt{
+    padding-left: 10px;
+}
+label{
+    font-size: 20px;
+}
+.vidro{
+    background: rgba( 19, 8, 8, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.vidro2{
+    background: rgba( 147, 16, 16, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 19.5px );
+    -webkit-backdrop-filter: blur( 19.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.leaflet-container {
+    height: 400px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
+  
