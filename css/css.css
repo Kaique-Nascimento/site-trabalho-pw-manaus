@@ -8,18 +8,18 @@
 html{
     scroll-behavior: smooth;
 }
-::-webkit-scrollbar {
+::-webkit-scrollbar{
     width: 20px;
   }
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track{
     box-shadow: inset 0 0 5px grey; 
     border-radius: 20px;
   }
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb{
     background: black; 
     border-radius: 20px;
   }
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover{
     background: #A9BAEE; 
   }
 header{
@@ -48,7 +48,6 @@ a{
     display: flex;
     align-items: center;
     gap: 60px;  
-
 }
 .nav-link{
     transition: all 0.5s ease;
@@ -71,31 +70,31 @@ a{
     color: white;
     background-color:  #D98F4E; 
 }
-img {
+img{
     margin: auto;
     display: block;
 }
-.splide__slide img {
+.splide__slide img{
     width: 50%;
     height: auto;
 }
-details {
+details{
     border: 1px solid white;
     border-radius: 4px;
     padding: .5em .5em 0;
+    font-size: 20px;
+    font-weight: bold;
 }
-
-summary {
+summary{
     font-weight: bold;
     margin: -.5em -.5em 0;
     padding: .5em;
 }
-details[open] {
+details[open]{
     padding: .5em;
     transition: all 0.5s ease;
 }
-
-details[open] summary {
+details[open] summary{
     border-top: 1px solid white;
     margin-bottom: .5em;
     transition: all 0.5s ease;
@@ -123,20 +122,19 @@ footer{
     padding: 0 34px;
     color: #999999;
 }
-form {
+form{
     font-family: Verdana,Tahoma,sans-serif;
     font-size: 15px;
-    background-color: #000;
+    background-color: #591E09;
     max-width: 1000px;
 }
-#hw {
+#hw{
     margin-bottom: 20px;
     margin-left: 20px;
     color: #66FFFF;
     text-shadow: 5px 5px 5px black;
-    
 }
-#nome, #fone, #email {
+#nome, #fone, #email{
     width: 250px;
     padding: 15px;
     color: black;
@@ -147,15 +145,16 @@ form {
     border: 1px solid;
     font-size: 15px;
 }
-input:hover, textarea:hover, input:focus, textarea:focus {
+input:hover, textarea:hover, input:focus, textarea:focus{
     border-color: #000066;
-    box-shadow: 5px 0px 9px #FFFF00;
-    background-color: #66FFFF;
+    box-shadow: 0 5px 10px #FFFF00;
+    background-color: #F7FFF2;
     color: black;
     font-weight: bold;
+    transition: all 0.2s ease;
 }
-.enviar {
-    background-color: #66FFFF;
+.enviar{
+    background-color: #00A685;
     height: 40px;
     width: 100px;
     font-weight: bold;
@@ -166,15 +165,14 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     color: black;
     
 }
-textarea {
+textarea{
     width: 400px;
     height: 120px;
     line-height: 20px;
     max-width: 400px;
     padding-left: 20px;
 }
-
-form label {
+form label{
     margin-left: 20px;
     color: #FFFFFF;
     font-weight: bold;
@@ -185,5 +183,26 @@ form label {
 label{
     font-size: 20px;
 }
-  
+.vidro{
+    background: rgba( 19, 8, 8, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.vidro2{
+    background: rgba( 147, 16, 16, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 19.5px );
+    -webkit-backdrop-filter: blur( 19.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.leaflet-container {
+    height: 400px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
   

@@ -10,24 +10,16 @@
     <link rel="stylesheet" href="css/grid.css" media="screen">
     <script defer src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script defer src="js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
-
-	<style>
-		html, body {
-			height: 100%;
-			margin: 0;
-		}
-		.leaflet-container {
-			height: 400px;
-			width: 600px;
-			max-width: 100%;
-			max-height: 100%;
-		}
-	</style>
+    <script src="js/wow.min.js"></script>
 </head>
 <body>
+    <script>
+        new WOW().init();
+        </script>
     <header>
         <nav class="navbar"> 
             <a href="index.html">
@@ -58,40 +50,55 @@
         </nav>
     </header>
 <div class="centro">
+<div class="animate__animated animate__fadeIn">
     <h1>Bem-Vindo a Manaus!</h1> 
 </div>
     <section id="comeco">
-        <div class="centro">
+        <div class="centro">         
+<div class="animate__animated animate__fadeIn">
         <h1 > Manaus </h1>
         <br>
+    </div>
         <br>
-        <p> Lugar para se viver, lugar dos maiores cantos de passarinhos do brasil
-            e muita cachaça para o país!
-        </p>
+        <div class="animate__animated animate__fadeInDownBig">
+            <p> Lugar para se viver, lugar dos maiores cantos de passarinhos do brasil
+                e muita cachaça para o país!
+            </p>
+        </div>
+
+    </div>
         <div class="row">
-            <div class="col-6" style="margin-top: 30px">           
-                &nbsp;   &nbsp;  A primeira universidade do Brasil foi fundada em Manaus.
-                &nbsp; A primeira universidade do Brasil chamava-se Escola Universitária Livre de Manáos. &nbsp;A Escola Universitária começou com dez cursos agrupados em cinco faculdades: ciências jurídicas e sociais, medicina, ciências e letras, engenharia e militar. 
+            <div class="col-6" style="margin-top: 30px">   
+                <div class="animate__animated animate__fadeInLeft">
+                    &nbsp;   &nbsp;  A primeira universidade do Brasil foi fundada em Manaus.
+                    &nbsp; A primeira universidade do Brasil chamava-se Escola Universitária Livre de Manáos. &nbsp;A Escola Universitária começou com dez cursos agrupados em cinco faculdades: ciências jurídicas e sociais, medicina, ciências e letras, engenharia e militar. 
+                </div>        
+                
             </div>
             <div class="col-6" style="margin-top: 30px">
-                &nbsp;   &nbsp;Manaus tem o maior porto flutuante do mundo.
-                &nbsp; O porto de Manaus pode operar com 04 navios simultaneamente em qualquer período do ano e mais 3 navios durante a cheia do Rio Negro.
+                <div class="animate__animated animate__fadeInRight">
+                    &nbsp;Manaus tem o maior porto flutuante do mundo.
+                    &nbsp; O porto de Manaus pode operar com 04 navios simultaneamente em qualquer período do ano e mais 3 navios durante a cheia do Rio Negro.
+                </div>
+                &nbsp;   
 <br>  &nbsp;
             </div>          
         </div>
+        <div class="animate__animated animate__fadeInUpBig">
         <p class="centro" style="margin: 10px 100px">
             &nbsp;&nbsp;Manaus tem uma grande influência dos ingleses.&nbsp;
 Manaus e Inglaterra tem suas histórias interligadas pelo ciclo da borracha, que trouxe grande prosperidade e desenvolvimento para a cidade.
         </p>
         </div>
+        
+        </div>
     </section>
 </div>
-    <section id="info">
+    <section id="info" style="margin-top: -30px;">
+        <div class="wow animate__bounceIn">
         <div class="centro">
             <h1>Informações </h1>
-        <!--  TEM QUE VER COMO QUE COLOCAR ESSE SLIDE DIREITO -->
-<div class="row">
-
+<div class="row vidro">
     <div class="col-12">
         <div class="centro">
             <details>
@@ -126,17 +133,15 @@ Manaus e Inglaterra tem suas histórias interligadas pelo ciclo da borracha, que
                     </tr>
                     <tr>
                         <th>IDEB – Anos finais do ensino fundamental (Rede pública) [2021]
-                            
                         </th>
                         <td  style="text-align: center;">5,0</td>
                     </tr>
                 </div>
                  </table>
-            
               </details>
         </div>
     </div>
-    <div class="col-12">
+    <div class="col-12 vidro2">
         <section id="image-carousel" class="splide">
             <div class="splide__track">
                   <ul class="splide__list">
@@ -155,7 +160,6 @@ Manaus e Inglaterra tem suas histórias interligadas pelo ciclo da borracha, que
                       <li class="splide__slide">
                           <img src="img/carrossel/5.jpg" alt="">
                       </li>
-
                   </ul>
             </div>
           </section>
@@ -169,54 +173,74 @@ Manaus e Inglaterra tem suas histórias interligadas pelo ciclo da borracha, que
                     });
                   </script>
             </script>
+            </div>
     </section>
     <section id="pessoas">
+    <div class="wow animate__bounceInRight">
         <div class="centro">
             <h3> Número de habitantes</h3>
             <h1>1.802.014 pessoas</h1>
             <p>Último censo [2010]</p>
         </div>
+        </div>
     </section>
     <section id="contato">
+        <div class="wow animate__fadeIn">
 <h1 class="centro">Entre em contato conosco!</h1>
 <div class="row">
 <div class="col-6">
     <form name="form" >
-
-        <h1 class="hw">Entre em contato</h1>
-
+        <h1 class="hw centro">Entre em contato</h1>
         <label for="nome">Nome</label>
         <input type="text" id="nome" placeholder="Kaique Kando" required="required" name="nome" /><br>
-       
         <label for="fone">Fone</label>
-        <input type="tel" id="fone" placeholder="(xx)xx-xx-xx-xx" name="fone"/><br>
-      
+        <input type="tel" id="fone" placeholder="(xx)xx-xx-xx-xx" name="fone" required/><br>
         <label for="email">Email</label>
-        <input type="email" id="email" placeholder="fulano@mail.com" name="email" /> <br>
-       <br><textarea placeholder="Nao aceito criticas" id="txt"></textarea>
-      
-        <input type="submit" class="enviar" onclick="Enviar" value="Enviar" />
+        <input type="email" id="email" placeholder="fulano@mail.com" name="email" required /> <br>
+       <br>
+       <div class="centro">
+       <textarea placeholder="Nao aceito criticas" id="txt" required></textarea>
+    </div>
+      <div class="centro">
+        <input type="submit" class="enviar" id="enviado" value="Enviar" />
+    </div>
       </form>
-
+<script>
+    let enviar = document.getElementById("enviado");
+    enviar.addEventListener("click", function() {
+        let mensagem = document.getElementById("txt").value;
+        let nome = document.getElementById("nome").value;
+        let email = document.getElementById("email").value;
+        if(nome.length < 3 || mensagem.length < 3 || email.length < 3) alert('Por favor, preencha TODOS os Campos!');
+        else{   
+            var resultado = confirm("Olá, "+nome+"\n Deseja enviar essa mensagem?\n"+mensagem);
+            if(resultado == true){
+                alert("Mensagem enviada!");
+                window.location.href = "index.html"
+            } 
+            else{
+                alert("Ok");
+                return;
+            }
+        }});
+</script>
 </div>
 <div class="col-6">
-    <center>
-    <div id="map" style="width: 600px; height: 400px; "></div>
-    </center>
+    <div class="centro">
+    <div id="map" style="width: 400px; height: 400px; "></div>
+    </div>
     <script>
 var map = L.map('map').setView([-3.10719, -60.0261], 10);
-
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
-
 L.marker([-3.10719, -60.0261]).addTo(map)
-    .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-    .openPopup();
-    
+    .bindPopup('Centro de Amazonas.')
+    .openPopup();   
     </script>
 </div>
-
+</div>
+</div>
     </section>
     <footer>
         <div class="footer">
@@ -226,8 +250,8 @@ L.marker([-3.10719, -60.0261]).addTo(map)
                 <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
                     Termos de uso 
                 </a></p>
+                <p class ="footer"> Feito por: Kaique e Jonatas</p>
         </div>
-
     </footer>
 </body>
 </html>
