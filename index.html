@@ -7,10 +7,10 @@
     <title>Bem-Vindo!</title>
     <link rel="icon" type="image/png" size="10x10" href="img/logo.png">
     <link rel="stylesheet" href="css/css.css" media="screen">
+    <link rel="stylesheet" href="css/grid.css" media="screen">
     <script defer src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script defer src="js/splide.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-
 </head>
 <body>
     <header>
@@ -25,17 +25,17 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">
-                        Sobre
+                    <a href="#info" class="nav-link">
+                        Informação
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">
-                        Turístico
+                    <a href="#pessoas" class="nav-link">
+                        Habitantes
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">
+                    <a href="#contato" class="nav-link">
                         Contato
                     </a>
                 </li>
@@ -45,7 +45,7 @@
 <div class="centro">
     <h1>Bem-Vindo a Manaus!</h1> 
 </div>
-    <section id="verde">
+    <section id="comeco">
         <div class="centro">
         <h1 > Manaus </h1>
         <br>
@@ -53,46 +53,137 @@
         <p> Lugar para se viver, lugar dos maiores cantos de passarinhos do brasil
             e muita cachaça para o país!
         </p>
+        <div class="row">
+            <div class="col-6" style="margin-top: 30px">           
+                &nbsp;   &nbsp;  A primeira universidade do Brasil foi fundada em Manaus.
+                &nbsp; A primeira universidade do Brasil chamava-se Escola Universitária Livre de Manáos. &nbsp;A Escola Universitária começou com dez cursos agrupados em cinco faculdades: ciências jurídicas e sociais, medicina, ciências e letras, engenharia e militar. 
+            </div>
+            <div class="col-6" style="margin-top: 30px">
+                &nbsp;   &nbsp;Manaus tem o maior porto flutuante do mundo.
+                &nbsp; O porto de Manaus pode operar com 04 navios simultaneamente em qualquer período do ano e mais 3 navios durante a cheia do Rio Negro.
+<br>  &nbsp;
+            </div>          
+        </div>
+        <p class="centro" style="margin: 10px 100px">
+            &nbsp;&nbsp;Manaus tem uma grande influência dos ingleses.&nbsp;
+Manaus e Inglaterra tem suas histórias interligadas pelo ciclo da borracha, que trouxe grande prosperidade e desenvolvimento para a cidade.
+        </p>
         </div>
     </section>
 </div>
-
-    <section id="marrom">
+    <section id="info">
         <div class="centro">
-        <h1> Cidade Linda </h1>
+            <h1>Informações </h1>
         <!--  TEM QUE VER COMO QUE COLOCAR ESSE SLIDE DIREITO -->
-<section class="splide" aria-label="Splide Basic HTML Example">
+<div class="row">
+
+    <div class="col-12">
+        <div class="centro">
+            <details>
+                <summary>História</summary>
+                <p> &nbsp;&nbsp;Manaus foi criada no século XVII para demonstrar a presença lusitana e fixar domínio português na região amazônica, que na época já era considerada posição estratégica em território brasileiro. 
+                    O núcleo urbano, localizado à margem esquerda do Rio Negro, teve início com a construção do Forte da Barra de São José, idealizado pelo capitão de artilharia, Francisco da Mota Falcão, em 1669, data que foi convencionada a usar como o nascimento da cidade.
+                    </p>
+              </details>
+              <details>
+                <summary>Salário</summary>
+                <p> &nbsp;&nbsp;Em 2020, o salário médio mensal era de 3.0 salários-mínimos. A proporção de pessoas ocupadas em relação à população total era de 23.7%. Na comparação com os outros municípios do estado, ocupava as posições 2 de 62, considerando domicílios com rendimentos mensais de até meio salário-mínimo por pessoa, tinha 37.9% da população nessas condições, o que o colocava na posição 62 de 62 dentre as cidades do estado e na posição 3021 de 5570 dentre as cidades do Brasil. Já na comparação com cidades do país todo, ficava na posição 135 de 5570 e 984 de 5570.
+                    </p>
+              </details>
+              <details>
+                <summary>Território e Ambiente</summary>
+                <p> &nbsp;&nbsp;Apresenta 62.4% de domicílios com esgotamento sanitário adequado, 23.9% de domicílios urbanos em vias públicas com arborização e 26.3% de domicílios urbanos em vias públicas com urbanização adequada (presença de bueiro, calçada, pavimentação e meio-fio). 
+                    </p>
+              </details>
+              <details>
+                <summary>Educação</summary>
+                <table border="1">
+                    <div class="centro">
+                    <tr>
+                        <th>Taxa de escolarização de 6 a 14 anos de idade [2010]
+                           </th>
+                        <td  style="text-align: center;"> 94,2 %</td>
+                    </tr>
+                    <tr>
+                        <th>IDEB – Anos iniciais do ensino fundamental (Rede pública) [2021]
+                        </th>
+                        <td  style="text-align: center;"> 5,7</td>
+                    </tr>
+                    <tr>
+                        <th>IDEB – Anos finais do ensino fundamental (Rede pública) [2021]
+                            
+                        </th>
+                        <td  style="text-align: center;">5,0</td>
+                    </tr>
+                </div>
+                 </table>
+            
+              </details>
+        </div>
+    </div>
+    <div class="col-12">
+        <section id="image-carousel" class="splide">
             <div class="splide__track">
                   <ul class="splide__list">
                       <li class="splide__slide">
-                        <img src="img/carrossel/1.jpg">
+                          <img src="img/carrossel/1.jpg" alt="">
                       </li>
                       <li class="splide__slide">
-                        <img src="img/carrossel/2.jpg">
+                          <img src="img/carrossel/2.jpg" alt="">
                       </li>
                       <li class="splide__slide">
-                        <img src="img/carrossel/3.jpg">
+                          <img src="img/carrossel/3.jpg" alt="">
                       </li>
                       <li class="splide__slide">
-                        <img src="img/carrossel/4.jpg">
+                          <img src="img/carrossel/4.jpg" alt="">
                       </li>
                       <li class="splide__slide">
-                        <img src="img/carrossel/5.jpg">
+                          <img src="img/carrossel/5.jpg" alt="">
                       </li>
 
                   </ul>
             </div>
           </section>
-      
-
-
-
-</div>
-            <script> //Coisa pro Slide funcionar
-    document.addEventListener( 'DOMContentLoaded', function () {
-        new Splide( '.splide' ).mount();
-    } );
+                </div>
+                <script>
+                    document.addEventListener( 'DOMContentLoaded', function () {
+                        new Splide( '.splide', {
+                            drag   : 'free',
+                            perPage: 1,
+                        }).mount();
+                    });
+                  </script>
             </script>
     </section>
+    <section id="pessoas">
+        <div class="centro">
+            <h3> Número de habitantes</h3>
+            <h1>1.802.014 pessoas</h1>
+            <p>Último censo [2010]</p>
+        </div>
+    </section>
+    <section id="contato">
+<h1 class="centro">Entre em contato conosco!</h1>
+<div class="row">
+<div class="col-6">
+    Inclua um formulário de contato, contendo um campo para o nome e para a mensagem. Ao clicar no botão enviar, deve aparecer uma mensagem de confirmação (via javacript, função confirm())
+</div>
+<div class="col-6">
+    Incluir o mapa do município utilizando a biblioteca Leaflet (https://leafletjs.com). Faça pesquisa no Google para obter a posição geográfica (latitude e longitude)
+</div>
+</div>
+
+    </section>
+    <footer>
+        <div class="footer">
+            <p class ="footer"> Se inscreva no canal </p>
+            <p class ="footer"> Copyright © 2022 Etec. All rights reserved. </p>
+            <p class ="footer"> 
+                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
+                    Termos de uso 
+                </a></p>
+        </div>
+
+    </footer>
 </body>
 </html>
