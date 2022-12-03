@@ -19,7 +19,7 @@ Na teoria, um site que teria informações informatísticas sobre a cidade de Ma
 ![](img/demo.gif)
 
 ## Versão
-0.0.5
+0.5
 
 ## Visite o site!
  https://palmirinhadev.github.io/site-trabalho-pw-manaus/
