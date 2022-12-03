@@ -11,6 +11,21 @@
     <script defer src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script defer src="js/splide.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		.leaflet-container {
+			height: 400px;
+			width: 600px;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	</style>
 </head>
 <body>
     <header>
@@ -166,11 +181,40 @@ Manaus e Inglaterra tem suas histórias interligadas pelo ciclo da borracha, que
 <h1 class="centro">Entre em contato conosco!</h1>
 <div class="row">
 <div class="col-6">
-    Inclua um formulário de contato, contendo um campo para o nome e para a mensagem. Ao clicar no botão enviar, deve aparecer uma mensagem de confirmação (via javacript, função confirm())
+    <form name="form" >
+
+        <h1 class="hw">Entre em contato</h1>
+
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Kaique Kando" required="required" name="nome" /><br>
+       
+        <label for="fone">Fone</label>
+        <input type="tel" id="fone" placeholder="(xx)xx-xx-xx-xx" name="fone"/><br>
+      
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="fulano@mail.com" name="email" /> <br>
+       <br><textarea placeholder="Nao aceito criticas" id="txt"></textarea>
+      
+        <input type="submit" class="enviar" onclick="Enviar" value="Enviar" />
+      </form>
+
 </div>
 <div class="col-6">
-    Incluir o mapa do município utilizando a biblioteca Leaflet (https://leafletjs.com). Faça pesquisa no Google para obter a posição geográfica (latitude e longitude)
-</div>
+    <center>
+    <div id="map" style="width: 600px; height: 400px; "></div>
+    </center>
+    <script>
+var map = L.map('map').setView([-3.10719, -60.0261], 10);
+
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+L.marker([-3.10719, -60.0261]).addTo(map)
+    .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+    .openPopup();
+    
+    </script>
 </div>
 
     </section>
