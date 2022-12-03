@@ -10,7 +10,8 @@ Na teoria, um site que teria informações informatísticas sobre a cidade de Ma
 >- ECMAScript 2020;
 >- SplideJs v4.1.3;
 >- RickRoll;
->- Simple Grid.
+>- Simple Grid;
+> Glassmorphism-generator.
 
 ## Versão
 0.0.3
