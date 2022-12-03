@@ -9,10 +9,11 @@ Na teoria, um site que teria informações informatísticas sobre a cidade de Ma
 >- CSS 3;
 >- ECMAScript 2020;
 >- SplideJs v4.1.3;
->- RickRoll.
+>- RickRoll;
+>- Simple Grid.
 
 ## Versão
-0.0.2
+0.0.3
 
 ## Autores
 Nós do grupo
