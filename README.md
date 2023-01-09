@@ -22,7 +22,7 @@ Na teoria, um site que teria informações informatísticas sobre a cidade de Ma
 0.5
 
 ## Visite o site!
- https://palmirinhadev.github.io/site-trabalho-pw-manaus/
+ https://kaique-nascimento.github.io/site-trabalho-pw-manaus/
 ## Autores
 Nós do grupo.
 
